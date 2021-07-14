@@ -1,0 +1,55 @@
+// $stmt=$con->prepare("SELECT * FROM users");
+// $stmt->execute();
+// // $stmt->rowCount();
+// $stmt->rowCount();
+
+// $row=$stmt->fetch();
+
+// if ($stmt->rowCount() > 0) {
+// echo "<div class='alert alert-danger text-center'>Sorry This <Strong> name</strong> 
+// is error</div>";	
+// }
+// if ($stmt->rowCount() > 0) {
+// echo "<div class='alert alert-danger text-center'>Sorry This <Strong> Email</strong> 
+// is error</div>";	
+// }
+// if ($stmt->rowCount() > 0) {
+// echo "<div class='alert alert-danger text-center'>Sorry This <Strong> Password</strong> 
+ // is error</div>";	
+ // }
+
+// IF USERNAME ITS NOT CORUECCT SHOW MESSAGE FOR USER ....
+
+// if ($username !=$row['username']) {
+
+// echo "<div class='alert alert-danger text-center'>Sorry <Strong>username</Strong> is error</div>";
+
+// }
+// // IF EMAIL ITS NOT CORUECCT SHOW MESSAGE FOR USER ....
+
+// if ($Email !=$row['Email']) {
+
+// echo "<div class='alert alert-danger text-center'>Sorry <Strong>Email</Strong>is error</div>";
+
+// }
+// // IF PASSWORD ITS NOT CORUECCT SHOW MESSAGE FOR USER ....
+
+// if ($Password !=$row['password']) {
+
+// echo "<div class='alert alert-danger text-center'>Sorry <Strong>Password</Strong>is error</div>";
+
+// }
+// // IF ALL INFORMATION SUCSSES GO TO PAGE 
+
+// if ($username == trim($row['username']) && $Email==trim($row['Email']&& 
+
+// $Password==trim($row['password']))) {
+
+// header("Location:dashbord.php");
+	
+// }else{
+
+// 	echo "You have error ";
+// }
+
+// END OF LINE 10 WHEN CLICKED ON BUTTON DO ACTIONS .....
